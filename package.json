@@ -1,0 +1,20 @@
+{
+  "name": "liora-hospitals-doctor-portal",
+  "version": "1.0.0",
+  "description": "LIORA HOSPITALS — Dedicated Independent Doctor Portal",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('Run npm run dev:backend and npm run dev:frontend in separate terminals')\"",
+    "dev:backend": "cd doctor-portal/backend && node server.js",
+    "dev:frontend": "cd doctor-portal/frontend && npm.cmd run dev",
+    "start": "cd doctor-portal/backend && node server.js",
+    "build": "cd doctor-portal/frontend && npm.cmd run build"
+  },
+  "keywords": [
+    "liora-hospitals",
+    "doctor-portal",
+    "hospital-management"
+  ],
+  "author": "Liora Hospitals Engineering Team",
+  "license": "ISC"
+}
